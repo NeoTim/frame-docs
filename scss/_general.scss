@@ -31,7 +31,7 @@
     &:hover:after {
       content: "#";
       position: absolute;
-      top: 3px;
+      top: -1px;
       right: -20px;
       color: $color-slate--lighter;
       font-size: $base;
