@@ -1,0 +1,40 @@
+.l-column--sidebar {
+  @include width(300px);
+  background: $color-pale--light;
+}
+
+.l-column--main {
+  @include max-width(900px);
+}
+
+.c-navbar {
+  a {
+    color: white;
+    &:hover {
+      color: white;
+    }
+
+    .faded {
+      opacity: .5;
+    }
+  }
+}
+
+.c-panel {
+  font-family: sans-serif;
+}
+
+.c-title--main {
+  margin-top: 1.5em;
+  a {
+    position: relative;
+    &:hover:after {
+      content: "#";
+      position: absolute;
+      top: 3px;
+      right: -20px;
+      color: $color-slate--lighter;
+      font-size: $base;
+    }
+  }
+}

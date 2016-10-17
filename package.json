@@ -1,0 +1,30 @@
+{
+  "name": "frame-docs",
+  "version": "1.0.0-alpha.1",
+  "description": "Documentation for Frame Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eucalyptuss/frame-docs.git"
+  },
+  "author": "Mikolaj Dobrucki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eucalyptuss/frame-docs/issues"
+  },
+  "homepage": "https://github.com/eucalyptuss/frame-docs#readme",
+  "devDependencies": {
+    "frame-framework": "^1.0.0-alpha.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-file-include": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0"
+  }
+}

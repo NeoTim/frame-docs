@@ -1,0 +1,328 @@
+@@include('./includes/header.html',{
+  "title": "Components"
+})
+
+    <div class="l-frame l-frame--full">
+
+      @@include('./includes/navbar.html')
+
+      <div class="l-row">
+        @@include('./includes/sidebar.html')
+
+        <!-- MAIN CONTENT AREA -->
+        <section class="l-column l-column--scrollable">
+          <div class="l-row">
+            <div class="l-column l-column--centered l-column--main">
+
+              <div class="l-item">
+                <h2 class="c-title c-title--large">Components</h2>
+                <hr/>
+              </div>
+
+              <!-- COMPONENT: TITLE -->
+              @@include('./includes/component-preview.html',{
+                "name": "Title",
+                "id": "Title"
+              })
+                  <h2 class='c-title c-title--larger'>Extra Large Title</h2>
+                  <h2 class='c-title c-title--large'>Large Title</h2>
+                  <h2 class='c-title c-title--medium'>Medium Title</h2>
+                  <h2 class='c-title c-title--small'>Small Title</h2>
+                </div>
+              </div>
+              <!-- // COMPONENT: TITLE -->
+
+              <!-- COMPONENT: SUBTITLE -->
+              @@include('./includes/component-preview.html',{
+                "name": "Subtitle",
+                "id": "Subtitle"
+              })
+                  <h2 class="c-subtitle c-subtitle--large">Large Subtitle</h2>
+                  <h2 class="c-subtitle c-subtitle--medium">Medium Subtitle</h2>
+                  <h2 class="c-subtitle c-subtitle--small">Small Subtitle</h2>
+                </div>
+              </div>
+              <!-- // COMPONENT: SUBTITLE -->
+
+              <!-- COMPONENT: LABEL -->
+              @@include('./includes/component-preview.html',{
+                "name": "Label",
+                "id": "Label"
+              })
+                  <h2 class="c-label c-label--large">Large Label</h2>
+                  <h2 class="c-label c-label--medium">Medium Label</h2>
+                  <h2 class="c-label c-label--small">Small Label</h2>
+                </div>
+              </div>
+              <!-- // COMPONENT: LABEL -->
+
+              <!-- COMPONENT: TEXT -->
+              @@include('./includes/component-preview.html',{
+                "name": "Text",
+                "id": "Text"
+              })
+                  <p class="c-text c-text--large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium a hic, veritatis quos. Corrupti illo repellat, tempore iure nisi autem voluptates quo odio et unde quidem recusandae, amet asperiores quae.</p>
+                  <p class="c-text c-text--medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit labore voluptates eos. Vero aspernatur accusantium deleniti repellendus. Vel harum error, nemo ipsum voluptatibus. Qui at aperiam minus explicabo illum, quisquam.</p>
+                  <p class="c-text c-text--small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid delectus vero excepturi similique nisi cum ad quibusdam totam ex voluptate corrupti incidunt, ipsam, harum, iusto recusandae, eum cumque voluptatum illo.</p>
+                </div>
+              </div>
+              <!-- // COMPONENT: TEXT -->
+
+              <!-- COMPONENT: BUTTON -->
+              @@include('./includes/component-preview.html',{
+                "name": "Button",
+                "id": "Button"
+              })
+                  <div>
+                    <a href="" class="c-button c-button--small c-button--main">button</a>
+                    <a href="" class="c-button c-button--small c-button--suplemental">button</a>
+                    <a href="" class="c-button c-button--small c-button--dark">button</a>
+                    <a href="" class="c-button c-button--small c-button--darker">button</a>
+                    <a href="" class="c-button c-button--small c-button--light">button</a>
+                    <a href="" class="c-button c-button--small c-button--lighter">button</a>
+                  </div>
+
+                  <div>
+                    <a href="" class="c-button c-button--small c-button--main c-button--outlined">button</a>
+                    <a href="" class="c-button c-button--small c-button--suplemental c-button--outlined">button</a>
+                    <a href="" class="c-button c-button--small c-button--dark c-button--outlined">button</a>
+                    <a href="" class="c-button c-button--small c-button--darker c-button--outlined">button</a>
+                    <a href="" class="c-button c-button--small c-button--light c-button--outlined">button</a>
+                    <a href="" class="c-button c-button--small c-button--lighter c-button--outlined">button</a>
+                  </div>
+                </div>
+              </div>
+              <!-- // COMPONENT: BUTTON -->
+
+              <!-- COMPONENT: INPUT -->
+              @@include('./includes/component-preview.html',{
+                "name": "Input",
+                "id": "Input"
+              })
+                  <div class="l-row">
+                    <div class="l-column">
+                      <div class="l-item">
+                        <label class="c-label c-label--small c-label--light">
+                          Text Input
+                          <input type="text" class="c-input" placeholder="Placeholder text">
+                        </label>
+                        <label class="c-label c-label--small c-label--light">
+                          Email Input
+                          <input type="email" class="c-input" placeholder="example@domain.com">
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="l-column">
+                      <div class="l-item">
+                        <label class="c-label c-label--small c-label--light">
+                          Number Input
+                          <input type="number" class="c-input" value="1000">
+                        </label>
+
+                        <label class="c-label c-label--small c-label--light">
+                          Password Input
+                          <input type="password" class="c-input">
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <label class="c-label c-label--small c-label--light">
+                    Text Area
+                    <textarea rows="10" class="c-input"></textarea>
+                  </label>
+                </div>
+              </div>
+              <!-- // COMPONENT: INPUT -->
+
+              <!-- COMPONENT: SELECT -->
+              @@include('./includes/component-preview.html',{
+                "name": "Select",
+                "id": "Select"
+              })
+
+                  <div class="l-row">
+                    <div class="l-column">
+                      <div class="l-item">
+                        <label class="c-label c-label--small c-label--light c-label--select">Select Menu
+                          <select class="c-select">
+                            <option value="husker">Option 1</option>
+                            <option value="starbuck">Option 2</option>
+                            <option value="hotdog">Option 3</option>
+                            <option value="apollo">Option 4</option>
+                          </select>
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="l-column">
+                      <div class="l-item">
+                        <label class="c-label c-label--small c-label--light">Multiple Select Menu
+                          <select multiple class="c-select">
+                            <option value="husker">Option 1</option>
+                            <option value="starbuck">Option 2</option>
+                            <option value="hotdog">Option 3</option>
+                            <option value="apollo">Option 4</option>
+                          </select>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- // COMPONENT: SELECT -->
+
+              <!-- COMPONENT: CHECKBOX, RADIO AND SWITCH -->
+              @@include('./includes/component-preview.html',{
+                "name": "Checkbox, Radio and Switch",
+                "id": "Checkbox"
+              })
+                  <div class="l-row">
+                    <div class="l-column">
+                      <div class="l-item">
+                        <fieldset class="c-text">
+                          <legend class="c-label c-label--small c-label--light">Checkboxes</legend>
+                          <label for="radio1" class="c-radio">
+                            <input type="radio" name="radio" value="radio1" id="radio1">
+                            Radio 1
+                          </label>
+                          <label for="radio2" class="c-radio">
+                            <input type="radio" name="radio" value="radio2" id="radio2">
+                            Radio 2
+                          </label>
+                          <label for="radio3" class="c-radio">
+                            <input type="radio" name="radio" value="radio3" id="radio3">
+                            Radio 3
+                          </label>
+                        </fieldset>
+                      </div>
+                    </div>
+
+                    <div class="l-column">
+                      <div class="l-item">
+                        <fieldset class="c-text">
+                          <legend class="c-label c-label--small c-label--light">Radio Buttons</legend>
+                          <label for="checkbox1" class="c-checkbox">
+                            <input id="checkbox1" type="checkbox">
+                            Checkbox 1
+                          </label>
+                          <label for="checkbox2" class="c-checkbox">
+                            <input id="checkbox2" type="checkbox">
+                            Checkbox 2
+                          </label>
+                          <label for="checkbox3" class="c-checkbox">
+                            <input id="checkbox3" type="checkbox">
+                            Checkbox 3
+                          </label>
+                        </fieldset>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="l-row">
+                    <div class="l-column">
+                      <div class="l-item">
+                        <span class="c-label c-label--small c-label--light">Switch</span>
+                        <div class="c-switch">
+                          <input id="switch" type="checkbox" class="c-switch__input">
+                          <label for="switch" class="c-switch__paddle"></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- // COMPONENT: CHECKBOX, RADIO AND SWITCH -->
+
+              <!-- COMPONENT: NAVBAR -->
+              @@include('./includes/component-preview.html',{
+                "name": "Navbar",
+                "id": "Navbar"
+              })
+                  <nav class="c-navbar c-navbar--main">
+                    <div class="l-row">
+                      <h1 class="c-title c-title--small">Title</h1>
+                      <ul class="c-navbar__menu c-navbar__menu--right">
+                        <li class="c-navbar__menu-item">Link 1</li>
+                        <li class="c-navbar__menu-item">Link 2</li>
+                        <li class="c-navbar__menu-item">Link 3</li>
+                      </ul>
+                    </div>
+                  </nav>
+
+                  <nav class="c-navbar  c-navbar--dark">
+                    <div class="l-row">
+                      <h1 class="c-title c-title--small">Title</h1>
+                      <ul class="c-navbar__menu c-navbar__menu--right">
+                        <li class="c-navbar__menu-item">Link 1</li>
+                        <li class="c-navbar__menu-item">Link 2</li>
+                        <li class="c-navbar__menu-item">Link 3</li>
+                      </ul>
+                    </div>
+                  </nav>
+
+                  <nav class="c-navbar  c-navbar--light">
+                    <div class="l-row">
+                      <h1 class="c-title c-title--small">Title</h1>
+                      <ul class="c-navbar__menu c-navbar__menu--right">
+                        <li class="c-navbar__menu-item">Link 1</li>
+                        <li class="c-navbar__menu-item">Link 2</li>
+                        <li class="c-navbar__menu-item">Link 3</li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+              <!-- // COMPONENT: NAVBAR -->
+
+              <!-- COMPONENT: EXPANDABLE LIST -->
+              @@include('./includes/component-preview.html',{
+                "name": "Expandable List",
+                "id": "Expandable"
+              })
+                  <nav>
+                    <dl class="c-expandable">
+                      <div class="c-expandable__title">
+                        <dd>
+                          Getting Started
+                        </dd>
+                      </div>
+                      <div class="c-expandable__content">
+                        <dd>
+                          <a href="#" class="c-expandable__item">Installation</a>
+                          <a href="#" class="c-expandable__item">Sample Projects</a>
+                        </dd>
+                      </div>
+                    </dl>
+
+                    <dl class="c-expandable">
+                      <div class="c-expandable__title">
+                        <dd>
+                          Compontents
+                        </dd>
+                      </div>
+                      <div class="c-expandable__content">
+                        <dd>
+                          <a href="#" class="c-expandable__item">Title</a>
+                          <a href="#" class="c-expandable__item">Label</a>
+                          <a href="#" class="c-expandable__item">Text</a>
+                          <a href="#" class="c-expandable__item">Navbar</a>
+                          <a href="#" class="c-expandable__item">Expandable</a>
+                        </dd>
+                      </div>
+                    </dl>
+                  </nav>
+                </div>
+              </div>
+              <!-- // COMPONENT: EXPANDABLE LIST -->
+
+            </div>
+
+
+          </section>
+          <!-- // MAIN CONTENT AREA -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
