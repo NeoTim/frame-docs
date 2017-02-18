@@ -24,10 +24,10 @@
                 "name": "Title",
                 "id": "Title"
               })
-                  <h2 class='c-title c-title--larger'>Extra Large Title</h2>
-                  <h2 class='c-title c-title--large'>Large Title</h2>
+                  <h2 class='c-title c-title--larger' style='margin:16px;'>Extra Large Title</h2>
+                  <h2 class='c-title c-title--large' style='margin:16px;'>Large Title</h2>
                   <h2 class='c-title c-title--medium'>Medium Title</h2>
-                  <h2 class='c-title c-title--small'>Small Title</h2>
+                  <h2 class='c-title c-title--small' style='margin-bottom:15px;'>Small Title</h2>
                 </div>
               </div>
               <!-- // COMPONENT: TITLE -->
@@ -37,9 +37,9 @@
                 "name": "Subtitle",
                 "id": "Subtitle"
               })
-                  <h2 class="c-subtitle c-subtitle--large">Large Subtitle</h2>
+                  <h2 class="c-subtitle c-subtitle--large" style='margin:16px;'>Large Subtitle</h2>
                   <h2 class="c-subtitle c-subtitle--medium">Medium Subtitle</h2>
-                  <h2 class="c-subtitle c-subtitle--small">Small Subtitle</h2>
+                  <h2 class="c-subtitle c-subtitle--small" style='margin-bottom:15px;'>Small Subtitle</h2>
                 </div>
               </div>
               <!-- // COMPONENT: SUBTITLE -->
@@ -63,7 +63,7 @@
               })
                   <p class="c-text c-text--large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium a hic, veritatis quos. Corrupti illo repellat, tempore iure nisi autem voluptates quo odio et unde quidem recusandae, amet asperiores quae.</p>
                   <p class="c-text c-text--medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit labore voluptates eos. Vero aspernatur accusantium deleniti repellendus. Vel harum error, nemo ipsum voluptatibus. Qui at aperiam minus explicabo illum, quisquam.</p>
-                  <p class="c-text c-text--small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid delectus vero excepturi similique nisi cum ad quibusdam totam ex voluptate corrupti incidunt, ipsam, harum, iusto recusandae, eum cumque voluptatum illo.</p>
+                  <p class="c-text c-text--small" style='margin-bottom:15px;'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid delectus vero excepturi similique nisi cum ad quibusdam totam ex voluptate corrupti incidunt, ipsam, harum, iusto recusandae, eum cumque voluptatum illo.</p>
                 </div>
               </div>
               <!-- // COMPONENT: TEXT -->
@@ -75,7 +75,7 @@
               })
                   <div>
                     <a href="" class="c-button c-button--small c-button--main">button</a>
-                    <a href="" class="c-button c-button--small c-button--suplemental">button</a>
+                    <a href="" class="c-button c-button--small c-button--supplemental">button</a>
                     <a href="" class="c-button c-button--small c-button--dark">button</a>
                     <a href="" class="c-button c-button--small c-button--darker">button</a>
                     <a href="" class="c-button c-button--small c-button--light">button</a>
@@ -84,7 +84,7 @@
 
                   <div>
                     <a href="" class="c-button c-button--small c-button--main c-button--outlined">button</a>
-                    <a href="" class="c-button c-button--small c-button--suplemental c-button--outlined">button</a>
+                    <a href="" class="c-button c-button--small c-button--supplemental c-button--outlined">button</a>
                     <a href="" class="c-button c-button--small c-button--dark c-button--outlined">button</a>
                     <a href="" class="c-button c-button--small c-button--darker c-button--outlined">button</a>
                     <a href="" class="c-button c-button--small c-button--light c-button--outlined">button</a>
@@ -93,6 +93,32 @@
                 </div>
               </div>
               <!-- // COMPONENT: BUTTON -->
+
+              <!-- COMPONENT: BADGE -->
+              @@include('./includes/component-preview.html',{
+                "name": "Badge",
+                "id": "Badge"
+              })
+                  <div>
+                    <span class="c-badge c-badge--small c-badge--main">1</span>
+                    <span class="c-badge c-badge--small c-badge--supplemental">1</span>
+                    <span class="c-badge c-badge--small c-badge--red">1</span>
+                    <span class="c-badge c-badge--small c-badge--dark">1</span>
+
+                    <span class="c-badge c-badge--medium c-badge--main">1</span>
+                    <span class="c-badge c-badge--medium c-badge--supplemental">1</span>
+                    <span class="c-badge c-badge--medium c-badge--red">1</span>
+                    <span class="c-badge c-badge--medium c-badge--dark">1</span>
+
+                    <span class="c-badge c-badge--large c-badge--main">1</span>
+                    <span class="c-badge c-badge--large c-badge--supplemental">1</span>
+                    <span class="c-badge c-badge--large c-badge--red">1</span>
+                    <span class="c-badge c-badge--large c-badge--dark">1</span>
+
+                  </div>
+                </div>
+              </div>
+              <!-- // COMPONENT: BADGE -->
 
               <!-- COMPONENT: INPUT -->
               @@include('./includes/component-preview.html',{
@@ -223,7 +249,7 @@
                     <div class="l-column">
                       <div class="l-item">
                         <span class="c-label c-label--small c-label--light">Switch</span>
-                        <div class="c-switch">
+                        <div class="c-switch" style='margin-bottom:15px;'>
                           <input id="switch" type="checkbox" class="c-switch__input">
                           <label for="switch" class="c-switch__paddle"></label>
                         </div>
@@ -239,7 +265,7 @@
                 "name": "Navbar",
                 "id": "Navbar"
               })
-                  <nav class="c-navbar c-navbar--main">
+                  <nav class="c-navbar c-navbar--main" style='margin:0 15px 15px;'>
                     <div class="l-row">
                       <h1 class="c-title c-title--small">Title</h1>
                       <ul class="c-navbar__menu c-navbar__menu--right">
@@ -250,7 +276,7 @@
                     </div>
                   </nav>
 
-                  <nav class="c-navbar  c-navbar--dark">
+                  <nav class="c-navbar  c-navbar--dark" style='margin:15px;'>
                     <div class="l-row">
                       <h1 class="c-title c-title--small">Title</h1>
                       <ul class="c-navbar__menu c-navbar__menu--right">
@@ -261,7 +287,7 @@
                     </div>
                   </nav>
 
-                  <nav class="c-navbar  c-navbar--light">
+                  <nav class="c-navbar  c-navbar--light" style='margin:15px;'>
                     <div class="l-row">
                       <h1 class="c-title c-title--small">Title</h1>
                       <ul class="c-navbar__menu c-navbar__menu--right">
@@ -280,7 +306,7 @@
                 "name": "Expandable List",
                 "id": "Expandable"
               })
-                  <nav>
+                  <nav style='margin-bottom:15px;'>
                     <dl class="c-expandable">
                       <div class="c-expandable__title">
                         <dd>
