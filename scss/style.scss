@@ -7,7 +7,7 @@ $font-family: "sofia-pro", sans-serif;
 
 
 ////////////////////////////////////////
-//////// CORE
+//////// FRAMEWORK
 ////////////////////////////////////////
 
 @import "../node_modules/frame-framework/scss/core/variables";
@@ -40,34 +40,6 @@ $font-family: "sofia-pro", sans-serif;
 @import "../node_modules/frame-framework/scss/core/components/navbar";
 @import "../node_modules/frame-framework/scss/core/components/panel";
 @import "../node_modules/frame-framework/scss/core/components/expandable";
-
-
-
-////////////////////////////////////////
-//////// THEME
-////////////////////////////////////////
-
-@import "../node_modules/frame-framework/scss/theme/variables";
-@import "../node_modules/frame-framework/scss/theme/general";
-
-//// TYPOGRAPHY
-@import "../node_modules/frame-framework/scss/theme/components/title";
-@import "../node_modules/frame-framework/scss/theme/components/subtitle";
-@import "../node_modules/frame-framework/scss/theme/components/label";
-@import "../node_modules/frame-framework/scss/theme/components/text";
-
-//// FORMS AND BUTTONS
-@import "../node_modules/frame-framework/scss/theme/components/button";
-@import "../node_modules/frame-framework/scss/theme/components/input";
-@import "../node_modules/frame-framework/scss/theme/components/select";
-@import "../node_modules/frame-framework/scss/theme/components/checkbox";
-@import "../node_modules/frame-framework/scss/theme/components/radio";
-@import "../node_modules/frame-framework/scss/theme/components/switch";
-
-//// NAVIGATION
-@import "../node_modules/frame-framework/scss/theme/components/navbar";
-@import "../node_modules/frame-framework/scss/theme/components/panel";
-@import "../node_modules/frame-framework/scss/theme/components/expandable";
 
 
 
