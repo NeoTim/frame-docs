@@ -30,7 +30,9 @@ $font-family: "sofia-pro", sans-serif;
 
 //// FORMS AND BUTTONS
 @import "../node_modules/frame-framework/scss/core/components/button";
+@import "../node_modules/frame-framework/scss/core/components/badge";
 @import "../node_modules/frame-framework/scss/core/components/input";
+@import "../node_modules/frame-framework/scss/core/components/input-group";
 @import "../node_modules/frame-framework/scss/core/components/select";
 @import "../node_modules/frame-framework/scss/core/components/checkbox";
 @import "../node_modules/frame-framework/scss/core/components/radio";
@@ -39,7 +41,7 @@ $font-family: "sofia-pro", sans-serif;
 //// NAVIGATION
 @import "../node_modules/frame-framework/scss/core/components/navbar";
 @import "../node_modules/frame-framework/scss/core/components/panel";
-@import "../node_modules/frame-framework/scss/core/components/expandable";
+@import "../node_modules/frame-framework/scss/core/components/vertical-nav";
 
 
 
