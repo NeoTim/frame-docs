@@ -16,22 +16,148 @@
 
               <!-- TITLE -->
               <div class="l-item">
-                <h2 class="c-title c-title--large">Introduction to Frame</h2>
-                <p class="c-text">Section under construction.</p>
+                <h2 class="c-title c-title--large">Welcome to Frame Docs</h2>
+                <p class="c-text">
+                  Frame is a tiny front-end framework that lets you quickly create flexible, well-structured projects.
+                  On these pages you will find anything you might need to build your project with Frame.
+                </p>
+                <p class="c-text">
+                  However, to get it to work, you'll need some working knowladge of <a href='http://sass-lang.com/' target='_blank'>SASS</a>. So if you're not familiar with it, it's probably high time you did it!</p>
+                </p>
               </div>
               <!-- // TITLE -->
 
-              <!-- Installation -->
+              <!-- INSTALLATION -->
               <div class="l-item">
-                <h2 id="docsIntroductionInstallation" class="c-title c-title--medium c-title--main"><a href="#docsIntroductionInstallation">Installation</a></h2>
-                <p class="c-text"><pre>npm install frame-framework</pre></p>
+                <h2 id="docsGettingStartedInstallation" class="c-title c-title--medium c-title--main"><a href="#docsGettingStartedInstallation">Installation</a></h2>
+
+                <p class="c-text">
+                  Using a package manager is probably the best way of working with Frame.
+                </p>
+
+                <h3 class="c-title c-title--small c-title--main">npm</h3>
+                <div class="c-panel c-panel--terminal">
+                  $ npm install frame-framework
+                </div>
+                <p class="c-text">If you're new to npm, you can read more about it at <a href="https://www.npmjs.com/">npmjs.com</a>.</p>
+
+                <h3 class="c-title c-title--small c-title--main">Just Download It</h3>
+                <p class="c-text">
+                  If you'd like to simply download the source code, you still can do it on <a href="http://github.com/eucalyptuss/frame">Github</a>.
+                </p>
               </div>
-              <!-- // Installation -->
+              <!-- // INSTALLATION -->
+
+              <!-- FIRST STEPS -->
+              <div class="l-item">
+                <h2 id="docsGettingStartedFirststeps" class="c-title c-title--medium c-title--main"><a href="#docsGettingStartedFirststeps">First Steps</a></h2>
+
+                <p class="c-text">
+                  If you're not sure where to start you can use this template as a starting point:
+                </p>
+
+                <div class="c-panel c-panel--pre">
+<pre><code class="html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+    &lt;title&gt;Frame Template&lt;/title&gt;
+
+    &lt;link href="style.css" rel="stylesheet"&gt;
+
+    &lt;!--[if lt IE 9]&gt;
+      &lt;script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"&gt;&lt;/script&gt;
+      &lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+
+    &lt;!-- Your code goes here --&gt;
+
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                </div>
+
+                <p class="c-text" style="margin: 16px;">
+                  …where <code>style.css</code> is your CSS file, compiled from a SASS stylesheet with all the Frame goodies inside:
+                </p>
+
+                <div class="c-panel c-panel--pre">
+<pre><code class="css">/**** VARIABLES OVERRIDES ****/
+
+Here you can customize Frame…
+
+
+/**** FRAMEWORK ****/
+
+@import "../frame/scss/core/variables";
+@import "../frame/scss/core/mixins";
+@import "../frame/scss/core/general";
+
+/* LAYOUT */
+@import "../frame/scss/core/layout/frame";
+@import "../frame/scss/core/layout/container";
+@import "../frame/scss/core/layout/section";
+@import "../frame/scss/core/layout/row";
+@import "../frame/scss/core/layout/column";
+@import "../frame/scss/core/layout/item";
+
+/* TYPOGRAPHY */
+@import "../frame/scss/core/components/title";
+@import "../frame/scss/core/components/subtitle";
+@import "../frame/scss/core/components/label";
+@import "../frame/scss/core/components/text";
+
+/* FORMS AND BUTTONS */
+@import "../frame/scss/core/components/button";
+@import "../frame/scss/core/components/badge";
+@import "../frame/scss/core/components/input";
+@import "../frame/scss/core/components/input-group";
+@import "../frame/scss/core/components/select";
+@import "../frame/scss/core/components/checkbox";
+@import "../frame/scss/core/components/radio";
+@import "../frame/scss/core/components/switch";
+
+/* NAVIGATION */
+@import "../frame/scss/core/components/navbar";
+@import "../frame/scss/core/components/panel";
+@import "../frame/scss/core/components/vertical-nav";
+
+
+/**** YOUR CSS ****/
+
+Your styles go here…</code></pre>
+                </div>
+
+                <p class="c-text" style="margin: 16px;">
+                  …and that's really it.
+                </p>
+              </div>
+              <!-- // FIRST STEPS -->
+
+              <!-- FAQ -->
+              <div class="l-item">
+                <h2 id="docsGettingStartedFAQ" class="c-title c-title--medium c-title--main"><a href="#docsGettingStartedFAQ">FAQ</a></h2>
+                <p class="c-text">
+                  Let's clarify a few details.
+                </p>
+
+                <h3 class="c-title c-title--small">Where's my single CSS file? Where's CDN?</h3>
+                <p class="c-text">
+                  Well, the simple answer is: nowhere. Frame just doesn't make sense this way.
+                </br>
+                  If you're looking for a bloated, dumb, out-of-the-box solution you came to the wrong place.
+                </p>
+
+                <h3 class="c-title c-title--small">Where's my Javascript?</h3>
+                <p class="c-text">Again, nowhere. No jQuery, no Vanilla, no Javascript.
+                  Trying to keep Frame as versatile as possible, implemention of your project's components is left up to you.
+                </p>
+              </div>
+              <!-- // FAQ -->
 
           </section>
           <!-- // MAIN CONTENT AREA -->
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+
+@@include('./includes/footer.html')
