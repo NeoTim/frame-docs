@@ -248,12 +248,27 @@
                   <div class="l-row">
                     <div class="l-column">
                       <div class="l-item">
-                        <span class="c-label c-label--small c-label--light">Switch</span>
+                        <span class="c-label c-label--small c-label--light" style="margin-bottom: 5px;">Switch</span>
                         <div class="c-switch" style='margin-bottom:15px;'>
                           <input id="switch" type="checkbox" class="c-switch__input">
                           <label for="switch" class="c-switch__paddle"></label>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- // COMPONENT: CHECKBOX, RADIO AND SWITCH -->
+
+              <!-- COMPONENT: CHECKBOX, RADIO AND SWITCH -->
+              @@include('./includes/component-preview.html',{
+                "name": "Input Group",
+                "id": "Inputgroup"
+              })
+                  <div class="c-input-group">
+                    <input class="c-input" type="text" placeholder="What are you looking for?" />
+                    <div class="c-input-group__button">
+                      <input type="submit" class="c-button c-button--main c-button--medium" value="search">
                     </div>
                   </div>
                 </div>
@@ -269,9 +284,9 @@
                     <div class="l-row">
                       <h1 class="c-title c-title--small">Title</h1>
                       <ul class="c-navbar__menu c-navbar__menu--right">
-                        <li class="c-navbar__menu-item">Link 1</li>
-                        <li class="c-navbar__menu-item">Link 2</li>
-                        <li class="c-navbar__menu-item">Link 3</li>
+                        <li class="c-navbar__menu-item"><a href="">Link 1</a></li>
+                        <li class="c-navbar__menu-item"><a href="">Link 2</a></li>
+                        <li class="c-navbar__menu-item"><a href="">Link 3</a></li>
                       </ul>
                     </div>
                   </nav>
@@ -280,9 +295,9 @@
                     <div class="l-row">
                       <h1 class="c-title c-title--small">Title</h1>
                       <ul class="c-navbar__menu c-navbar__menu--right">
-                        <li class="c-navbar__menu-item">Link 1</li>
-                        <li class="c-navbar__menu-item">Link 2</li>
-                        <li class="c-navbar__menu-item">Link 3</li>
+                        <li class="c-navbar__menu-item"><a href="">Link 1</a></li>
+                        <li class="c-navbar__menu-item"><a href="">Link 2</a></li>
+                        <li class="c-navbar__menu-item"><a href="">Link 3</a></li>
                       </ul>
                     </div>
                   </nav>
@@ -291,9 +306,9 @@
                     <div class="l-row">
                       <h1 class="c-title c-title--small">Title</h1>
                       <ul class="c-navbar__menu c-navbar__menu--right">
-                        <li class="c-navbar__menu-item">Link 1</li>
-                        <li class="c-navbar__menu-item">Link 2</li>
-                        <li class="c-navbar__menu-item">Link 3</li>
+                        <li class="c-navbar__menu-item"><a href="">Link 1</a></li>
+                        <li class="c-navbar__menu-item"><a href="">Link 2</a></li>
+                        <li class="c-navbar__menu-item"><a href="">Link 3</a></li>
                       </ul>
                     </div>
                   </nav>
@@ -301,46 +316,46 @@
               </div>
               <!-- // COMPONENT: NAVBAR -->
 
-              <!-- COMPONENT: EXPANDABLE LIST -->
+              <!-- COMPONENT: vertical-nav LIST -->
               @@include('./includes/component-preview.html',{
-                "name": "Expandable List",
-                "id": "Expandable"
+                "name": "Vertical Navigation",
+                "id": "Verticalnav"
               })
                   <nav style='margin-bottom:15px;'>
-                    <dl class="c-expandable">
-                      <div class="c-expandable__title">
+                    <dl class="c-vertical-nav">
+                      <div class="c-vertical-nav__title">
                         <dd>
                           Getting Started
                         </dd>
                       </div>
-                      <div class="c-expandable__content">
+                      <div class="c-vertical-nav__content">
                         <dd>
-                          <a href="#" class="c-expandable__item">Installation</a>
-                          <a href="#" class="c-expandable__item">Sample Projects</a>
+                          <a href="#" class="c-vertical-nav__item">Installation</a>
+                          <a href="#" class="c-vertical-nav__item">Sample Projects</a>
                         </dd>
                       </div>
                     </dl>
 
-                    <dl class="c-expandable">
-                      <div class="c-expandable__title">
+                    <dl class="c-vertical-nav">
+                      <div class="c-vertical-nav__title">
                         <dd>
                           Compontents
                         </dd>
                       </div>
-                      <div class="c-expandable__content">
+                      <div class="c-vertical-nav__content">
                         <dd>
-                          <a href="#" class="c-expandable__item">Title</a>
-                          <a href="#" class="c-expandable__item">Label</a>
-                          <a href="#" class="c-expandable__item">Text</a>
-                          <a href="#" class="c-expandable__item">Navbar</a>
-                          <a href="#" class="c-expandable__item">Expandable</a>
+                          <a href="#" class="c-vertical-nav__item">Title</a>
+                          <a href="#" class="c-vertical-nav__item">Label</a>
+                          <a href="#" class="c-vertical-nav__item">Text</a>
+                          <a href="#" class="c-vertical-nav__item">Navbar</a>
+                          <a href="#" class="c-vertical-nav__item">vertical-nav</a>
                         </dd>
                       </div>
                     </dl>
                   </nav>
                 </div>
               </div>
-              <!-- // COMPONENT: EXPANDABLE LIST -->
+              <!-- // COMPONENT: vertical-nav LIST -->
 
             </div>
 
