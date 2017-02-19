@@ -4,20 +4,13 @@
 }
 
 .l-column--main {
-  @include max-width(900px);
+  @include max-width(800px);
 }
 
 .c-navbar {
-  a {
-    color: white;
-    &:hover {
-      color: white;
-    }
-
     .faded {
       opacity: .5;
     }
-  }
 }
 
 .c-panel {
@@ -31,10 +24,32 @@
     &:hover:after {
       content: "#";
       position: absolute;
-      top: -1px;
+      top: 5px;
       right: -20px;
       color: $color-slate--lighter;
       font-size: $base;
     }
   }
+}
+
+.c-panel--pre {
+  padding: $base;
+
+  pre {
+    margin: 0;
+    padding: 0;
+  }
+
+  .hljs {
+    background: transparent;
+  }
+}
+
+.c-panel--terminal {
+  padding: $base;
+  font-family: monospace;
+  background-color: $color-slate--darker;
+  border-color: $color-slate--darkest;
+  color: $color-pale;
+  margin: $base;
 }
