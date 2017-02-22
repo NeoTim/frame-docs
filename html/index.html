@@ -16,13 +16,18 @@
 
               <!-- TITLE -->
               <div class="l-item">
-                <h2 class="c-title c-title--large">Welcome to Frame Docs</h2>
+                <h2 class="c-title c-title--large">Getting Started</h2>
+                <hr/>
+              </div>
+
+              <div class="l-item">
+                <h3 class="c-title c-title--medium c-title--main">Welcome to Feame Docs</h3>
                 <p class="c-text">
                   Frame is a tiny front-end framework that lets you quickly create flexible, well-structured projects.
                   On these pages you will find anything you might need to build your project with Frame.
                 </p>
                 <p class="c-text">
-                  However, to get it to work, you'll need some working knowladge of <a href='http://sass-lang.com/' target='_blank'>SASS</a>. So if you're not familiar with it, it's probably high time you did it!</p>
+                  However, to get it to work, you'll need some working knowladge of <a href='http://sass-lang.com/' target='_blank'>SASS</a>. So if you're not familiar with it, it'sd high time you did it!</p>
                 </p>
               </div>
               <!-- // TITLE -->
@@ -32,7 +37,7 @@
                 <h2 id="docsGettingStartedInstallation" class="c-title c-title--medium c-title--main"><a href="#docsGettingStartedInstallation">Installation</a></h2>
 
                 <p class="c-text">
-                  Using a package manager is probably the best way of working with Frame.
+                  Using a package manager isd the best way of working with Frame.
                 </p>
 
                 <h3 class="c-title c-title--small c-title--main">npm</h3>
@@ -80,7 +85,7 @@
                 </div>
 
                 <p class="c-text" style="margin: 16px;">
-                  …where <code>style.css</code> is your CSS file, compiled from a SASS stylesheet with all the Frame goodies inside:
+                  …where <code>style.css</code> is your complied CSS file, created from <code>style.scss</code>:
                 </p>
 
                 <div class="c-panel c-panel--pre">
@@ -91,38 +96,38 @@ Here you can customize Frame…
 
 /**** FRAMEWORK ****/
 
-@import "../frame/scss/core/variables";
-@import "../frame/scss/core/mixins";
-@import "../frame/scss/core/general";
+@import "[path/to/frame]/scss/core/variables";
+@import "[path/to/frame]/scss/core/mixins";
+@import "[path/to/frame]/scss/core/general";
 
 /* LAYOUT */
-@import "../frame/scss/core/layout/frame";
-@import "../frame/scss/core/layout/container";
-@import "../frame/scss/core/layout/section";
-@import "../frame/scss/core/layout/row";
-@import "../frame/scss/core/layout/column";
-@import "../frame/scss/core/layout/item";
+@import "[path/to/frame]/scss/core/layout/frame";
+@import "[path/to/frame]/scss/core/layout/container";
+@import "[path/to/frame]/scss/core/layout/section";
+@import "[path/to/frame]/scss/core/layout/row";
+@import "[path/to/frame]/scss/core/layout/column";
+@import "[path/to/frame]/scss/core/layout/item";
 
 /* TYPOGRAPHY */
-@import "../frame/scss/core/components/title";
-@import "../frame/scss/core/components/subtitle";
-@import "../frame/scss/core/components/label";
-@import "../frame/scss/core/components/text";
+@import "[path/to/frame]/scss/core/components/title";
+@import "[path/to/frame]/scss/core/components/subtitle";
+@import "[path/to/frame]/scss/core/components/label";
+@import "[path/to/frame]/scss/core/components/text";
 
 /* FORMS AND BUTTONS */
-@import "../frame/scss/core/components/button";
-@import "../frame/scss/core/components/badge";
-@import "../frame/scss/core/components/input";
-@import "../frame/scss/core/components/input-group";
-@import "../frame/scss/core/components/select";
-@import "../frame/scss/core/components/checkbox";
-@import "../frame/scss/core/components/radio";
-@import "../frame/scss/core/components/switch";
+@import "[path/to/frame]/scss/core/components/button";
+@import "[path/to/frame]/scss/core/components/badge";
+@import "[path/to/frame]/scss/core/components/input";
+@import "[path/to/frame]/scss/core/components/input-group";
+@import "[path/to/frame]/scss/core/components/select";
+@import "[path/to/frame]/scss/core/components/checkbox";
+@import "[path/to/frame]/scss/core/components/radio";
+@import "[path/to/frame]/scss/core/components/switch";
 
 /* NAVIGATION */
-@import "../frame/scss/core/components/navbar";
-@import "../frame/scss/core/components/panel";
-@import "../frame/scss/core/components/vertical-nav";
+@import "[path/to/frame]/scss/core/components/navbar";
+@import "[path/to/frame]/scss/core/components/panel";
+@import "[path/to/frame]/scss/core/components/vertical-nav";
 
 
 /**** YOUR CSS ****/
@@ -131,7 +136,7 @@ Your styles go here…</code></pre>
                 </div>
 
                 <p class="c-text" style="margin: 16px;">
-                  …and that's really it.
+                  Remember to replace <code>[path/to/frame]</code> with a right path to the assets and that's really it!
                 </p>
               </div>
               <!-- // FIRST STEPS -->

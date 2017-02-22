@@ -20,14 +20,21 @@
 .c-title--main {
   margin-top: 1.5em;
   a {
+    text-decoration: none;
     position: relative;
+    transition: $time;
+
+    &:hover {
+      color: darken($color-main, 5%);
+    }
+    
     &:hover:after {
       content: "#";
-      position: absolute;
-      top: 5px;
-      right: -20px;
+      margin-left: 5px;
       color: $color-slate--lighter;
       font-size: $base;
+      text-decoration: none;
+      line-height: 24px;
     }
   }
 }
